@@ -1,0 +1,48 @@
+/*全体*/
+.wrapper {
+    font-family: arial, sans-serif;
+	max-width: 600px;
+	margin: 0 auto;
+	color: #666;
+	text-align: center;
+}
+
+.stopwatch {
+    font-size: 60px;
+}
+
+/* 時間表示 */
+#time {
+    font-size: 80px;
+    margin: 20px 0;
+}
+
+/*ボタン*/
+button {
+    padding: 20px 0;
+    font-size: 30px;
+    display: inline-block;
+    padding: .8rem 1.6rem;
+    border: none;
+    color: #FFF;
+    background-color: #B78D4A;
+    border-radius: 15px;
+    box-shadow: 0 10px #6b532b; 
+}
+
+button:active {
+    position: relative;
+    top: 6px;
+    box-shadow: 0 3px #6b532b;
+}
+
+button:hover {
+    cursor: pointer;
+}
+button:disabled {
+    cursor: default;
+    background-color: #D4BB92;
+    position: relative;
+    top: 6px;
+    box-shadow: 0 3px #6b532b;
+}

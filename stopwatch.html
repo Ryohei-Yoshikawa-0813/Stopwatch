@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang ="ja">
+    <head>
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="script.js"></script>
+        <title>StopWatch</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <h1 class="stopwatch">STOPWATCH</h1>
+            <!--時間表示-->
+            <div id="time">00:00.000</div>
+
+            <!--ボタン表示-->
+            <button id="start" onclick="start()">START</button>
+            <button disabled id="stop" onclick="stop()">STOP</button>
+            <button disabled id="reset" onclick="reset()">RESET</button>
+        </div>
+    </body>
+</html>
